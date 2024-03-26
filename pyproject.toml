@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hdr-comparison"
+version = "0.1.0"
+description = ""
+authors = ["Sami Boukortt <sboukortt@google.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+pycvvdp = {path = "ColorVideoVDP"}
+matplotlib = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

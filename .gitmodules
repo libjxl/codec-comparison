@@ -1,0 +1,3 @@
+[submodule "ColorVideoVDP"]
+	path = ColorVideoVDP
+	url = https://github.com/gfxdisp/ColorVideoVDP.git

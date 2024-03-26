@@ -1,0 +1,7 @@
+.gitignore
+
+preload images
+
+run perl commands.pl
+
+: {svg_plots} {csv} |> ^o Preparing archive %o^ 7z -mx a %o %f |> metrics.zip
